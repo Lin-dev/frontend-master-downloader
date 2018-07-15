@@ -1,10 +1,10 @@
 {
   "name": "femdownloader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "download videos from FEM",
   "main": "index.js",
   "bin": {
-    "frontend-master-downloader": "index.js"
+    "femdownloader": "index.js"
   },
   "dependencies": {
     "args": "^3.0.8",
