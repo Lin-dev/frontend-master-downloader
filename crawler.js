@@ -39,7 +39,7 @@ module.exports = async ({ user, pass, courses, id }) => {
       .map(anchor => {
         return `${anchor.href}`;
       })
-      .filter(text => text.includes(obj.courses))
+      .filter(text => text.split('/')[4] === obj.courses)
       .pop();
   }, obj);
   await page.goto(link);
