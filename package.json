@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "description": "download videos from FEM",
   "main": "index.js",
-  "bin": {
-    "femdownloader": "index.js"
-  },
   "dependencies": {
     "args": "^3.0.8",
     "chalk": "^2.3.2",
