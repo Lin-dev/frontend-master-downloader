@@ -1,7 +1,7 @@
 {
-  "name": "frontend-master-downloader",
-  "version": "1.1.0",
-  "description": "Download video from frontenMaster",
+  "name": "femdownloader",
+  "version": "1.0.0",
+  "description": "download videos from FEM",
   "main": "index.js",
   "bin": {
     "frontend-master-downloader": "index.js"
@@ -16,10 +16,6 @@
     "stream-set": "^1.1.0",
     "through2-parallel": "^0.1.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sepiropht/Frontend-Master-Downloader.git"
-  },
   "keywords": [
     "frontend",
     "master",
@@ -28,11 +24,5 @@
     "download",
     "scraping",
     "puppeteer"
-  ],
-  "author": "William Mbotta (@sepiropht)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sepiropht/Frontend-Master-Downloader/issues"
-  },
-  "homepage": "https://github.com/sepiropht/Frontend-Master-Downloader"
+  ]
 }
